@@ -1,0 +1,11 @@
+/var/log/alternatives.log
+/var/log/boot.log
+/var/log/fontconfig.log
+/var/log/apt/history.log
+/var/log/apt/term.log
+/var/log/vboxadd-setup.log
+/var/log/dpkg.log
+/var/log/preload.log
+/var/log/vboxadd-uninstall.log
+/var/log/vboxpostinstall.log
+/var/log/vboxadd-install.log

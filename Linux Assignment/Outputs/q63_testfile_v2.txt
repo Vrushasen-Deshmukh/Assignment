@@ -1,0 +1,6 @@
+admin:x:0:0:admin:/admin:/bin/bash
+The admin user has full access to the system.
+This directory belongs to admin.
+Backup of admin configuration completed.
+admin privileges are required for this action.
+admin/admin/admin combination used in logs.

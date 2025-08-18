@@ -1,0 +1,215 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+dhairya+   40815 17.7  9.5 1485162332 779988 ?   Sl   09:57  43:44 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=39315 --enable-crash-reporter=e52eba48-7aa8-47f2-abeb-6b818932fb9b, --change-stack-guard-on-fork=enable --ozone-platform=wayland --disable-gpu-compositing --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=18 --time-ticks-at-unix-epoch=-1755404319513353 --launch-time-ticks=513016990 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,4672406891394985324,713522470248404410,2097152 --field-trial-handle=3,i,7435895873945491685,12733470545369558853,262144 --disable-features=EyeDropper --variations-seed-version=20250815-130033.239000
+dhairya+   39289  1.0  5.3 34464132 431468 ?     SLl  09:57   2:29 /opt/google/chrome/chrome
+dhairya+    5002  5.7  4.5 4371564 371604 ?      Ssl  09:49  14:45 /usr/bin/gnome-shell
+dhairya+   18124  0.7  4.2 1228840 345936 pts/0  Sl   09:52   1:49 evince /home/dhairyasen/Workspace/NewGen-Assignments/LINUX/Linux Assignment.pdf
+dhairya+   39371  0.6  2.1 34340708 178560 ?     Sl   09:57   1:43 /opt/google/chrome/chrome --type=gpu-process --ozone-platform=wayland --render-node-override=/dev/dri/renderD128 --crashpad-handler-pid=39315 --enable-crash-reporter=e52eba48-7aa8-47f2-abeb-6b818932fb9b, --change-stack-guard-on-fork=enable --gpu-preferences=UAAAAAAAAAAgAAAIAAAAAAAAAAAAAGAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --metrics-shmem-handle=4,i,13512611264353104014,4696398707037462281,262144 --field-trial-handle=3,i,7435895873945491685,12733470545369558853,262144 --disable-features=EyeDropper --variations-seed-version=20250815-130033.239000
+dhairya+   42398  0.0  2.1 1544900 171164 ?      Sl   09:57   0:03 nautilus
+dhairya+   18394  0.8  2.0 1525104 164100 ?      Sl   09:52   2:14 /usr/bin/gnome-text-editor --gapplication-service
+dhairya+   39543  0.0  1.8 1476501888 151560 ?   Sl   09:57   0:12 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=39315 --enable-crash-reporter=e52eba48-7aa8-47f2-abeb-6b818932fb9b, --extension-process --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=11 --time-ticks-at-unix-epoch=-1755404319513353 --launch-time-ticks=507355769 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,6614454666888358897,15242172003704790328,2097152 --field-trial-handle=3,i,7435895873945491685,12733470545369558853,262144 --disable-features=EyeDropper --variations-seed-version=20250815-130033.239000
+dhairya+   39376  0.5  1.5 33947568 127800 ?     Sl   09:57   1:16 /opt/google/chrome/chrome --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --render-node-override=/dev/dri/renderD128 --crashpad-handler-pid=39315 --enable-crash-reporter=e52eba48-7aa8-47f2-abeb-6b818932fb9b, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,3903991169194248117,8935126946813045107,524288 --field-trial-handle=3,i,7435895873945491685,12733470545369558853,262144 --disable-features=EyeDropper --variations-seed-version=20250815-130033.239000
+dhairya+ 1047581  1.2  1.4 1478196788 119160 ?   Sl   14:02   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=39315 --enable-crash-reporter=e52eba48-7aa8-47f2-abeb-6b818932fb9b, --extension-process --change-stack-guard-on-fork=enable --ozone-platform=wayland --disable-gpu-compositing --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=278 --time-ticks-at-unix-epoch=-1755404319513353 --launch-time-ticks=15249793232 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,9603169401544201247,14414954357888327142,2097152 --field-trial-handle=3,i,7435895873945491685,12733470545369558853,262144 --disable-features=EyeDropper --variations-seed-version=20250815-130033.239000
+dhairya+    5399  5.1  1.2 355184 105052 ?       S    09:49  13:07 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.3Y0EB3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7
+dhairya+ 1011826  0.0  1.2 1478204856 100240 ?   Sl   13:53   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=39315 --enable-crash-reporter=e52eba48-7aa8-47f2-abeb-6b818932fb9b, --extension-process --change-stack-guard-on-fork=enable --ozone-platform=wayland --disable-gpu-compositing --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=261 --time-ticks-at-unix-epoch=-1755404319513353 --launch-time-ticks=14664985869 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,9844983569576422925,523733452636317792,2097152 --field-trial-handle=3,i,7435895873945491685,12733470545369558853,262144 --disable-features=EyeDropper --variations-seed-version=20250815-130033.239000
+dhairya+    5252  0.0  1.2 954492 100180 ?       Sl   09:49   0:02 /usr/bin/gnome-software --gapplication-service
+root         262  0.1  1.1 164760 94008 ?        Ss   09:48   0:17 /lib/systemd/systemd-journald
+dhairya+    5256  0.0  1.1 1005924 90860 ?       Sl   09:49   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+dhairya+   41015  0.0  1.0 34015936 86748 ?      Sl   09:57   0:05 /opt/google/chrome/chrome --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --render-node-override=/dev/dri/renderD128 --crashpad-handler-pid=39315 --enable-crash-reporter=e52eba48-7aa8-47f2-abeb-6b818932fb9b, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,5468843433380451064,10328806297790855400,524288 --field-trial-handle=3,i,7435895873945491685,12733470545369558853,262144 --disable-features=EyeDropper --variations-seed-version=20250815-130033.239000
+dhairya+    5500  0.0  1.0 571264 85828 ?        Ssl  09:49   0:00 /usr/libexec/gsd-xsettings
+dhairya+    5090  0.0  0.9 1419976 80588 ?       Ssl  09:49   0:00 /usr/libexec/evolution-source-registry
+dhairya+  380444  0.0  0.9 1476492724 79708 ?    Sl   11:17   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=39315 --enable-crash-reporter=e52eba48-7aa8-47f2-abeb-6b818932fb9b, --change-stack-guard-on-fork=enable --ozone-platform=wayland --disable-gpu-compositing --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=102 --time-ticks-at-unix-epoch=-1755404319513353 --launch-time-ticks=5333011832 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,2050597654694663821,17270626838807015040,2097152 --field-trial-handle=3,i,7435895873945491685,12733470545369558853,262144 --disable-features=EyeDropper --variations-seed-version=20250815-130033.239000
+dhairya+    5011  0.0  0.8 812228 71564 ?        SLl  09:49   0:00 /usr/libexec/goa-daemon
+dhairya+   39323  0.0  0.8 33951536 65108 ?      S    09:57   0:00 /opt/google/chrome/chrome --type=zygote --no-zygote-sandbox --crashpad-handler-pid=39315 --enable-crash-reporter=e52eba48-7aa8-47f2-abeb-6b818932fb9b, --change-stack-guard-on-fork=enable
+dhairya+   39324  0.0  0.7 33951528 63996 ?      S    09:57   0:00 /opt/google/chrome/chrome --type=zygote --crashpad-handler-pid=39315 --enable-crash-reporter=e52eba48-7aa8-47f2-abeb-6b818932fb9b, --change-stack-guard-on-fork=enable
+dhairya+   39402  0.0  0.7 34009972 61080 ?      Sl   09:57   0:01 /opt/google/chrome/chrome --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --render-node-override=/dev/dri/renderD128 --crashpad-handler-pid=39315 --enable-crash-reporter=e52eba48-7aa8-47f2-abeb-6b818932fb9b, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,17992456174585555125,14415220699528520201,524288 --field-trial-handle=3,i,7435895873945491685,12733470545369558853,262144 --disable-features=EyeDropper --variations-seed-version=20250815-130033.239000
+dhairya+   13400  0.3  0.7 569080 60440 ?        Rsl  09:50   0:46 /usr/libexec/gnome-terminal-server
+dhairya+    5286  1.3  0.5 1213144 43756 ?       Rl   09:49   3:29 conky -c /home/dhairyasen/.config/conky/Shelyak-Dark/Shelyak-Dark.conf
+dhairya+    5369  0.0  0.4 351184 36448 ?        Sl   09:49   0:04 /usr/libexec/ibus-extension-gtk3
+dhairya+    5482  0.0  0.4 380496 35228 ?        Ssl  09:49   0:00 /usr/libexec/xdg-desktop-portal-gnome
+dhairya+    5231  0.0  0.4 548276 34576 ?        Sl   09:49   0:00 /usr/libexec/gvfsd-http --spawner :1.6 /org/gtk/gvfs/exec_spaw/1
+dhairya+    5539  0.0  0.4 197120 32832 ?        Sl   09:49   0:00 /usr/libexec/ibus-x11
+geoclue     3194  0.1  0.3 474032 32064 ?        Ssl  09:48   0:15 /usr/libexec/geoclue
+dhairya+    5521  0.0  0.3 347768 31764 ?        Ssl  09:49   0:00 /usr/libexec/xdg-desktop-portal-gtk
+dhairya+    5171  0.0  0.3 2579696 31348 ?       Sl   09:49   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+dhairya+    5373  0.0  0.3 2587888 31156 ?       Sl   09:49   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+dhairya+    4883  0.0  0.3 625712 30748 ?        SNsl 09:49   0:01 /usr/libexec/tracker-miner-fs-3
+dhairya+    5208  0.0  0.3 670284 30680 ?        Ssl  09:49   0:00 /usr/libexec/gsd-media-keys
+dhairya+    5135  0.0  0.3 743852 30424 ?        Ssl  09:49   0:00 /usr/libexec/evolution-addressbook-factory
+dhairya+    5113  0.0  0.3 814516 29820 ?        Ssl  09:49   0:00 /usr/libexec/evolution-calendar-factory
+dhairya+    5209  0.0  0.3 525984 28548 ?        Ssl  09:49   0:00 /usr/libexec/gsd-power
+dhairya+    5446  0.1  0.3 765984 27624 ?        Ssl  09:49   0:26 /usr/libexec/xdg-desktop-portal
+dhairya+    5200  0.0  0.3 341972 25720 ?        Ssl  09:49   0:00 /usr/libexec/gsd-color
+dhairya+    5224  0.0  0.3 415108 25052 ?        Ssl  09:49   0:00 /usr/libexec/gsd-wacom
+dhairya+    4842  0.0  0.3  42764 24984 ?        S<sl 09:49   0:04 /usr/bin/pipewire-pulse
+dhairya+    5205  0.0  0.2 414520 24244 ?        Ssl  09:49   0:00 /usr/libexec/gsd-keyboard
+dhairya+    4972  0.0  0.2 659424 22092 ?        Ssl  09:49   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=gnome
+root         708  0.0  0.2 258556 21884 ?        Ssl  09:48   0:00 /usr/sbin/NetworkManager --no-daemon
+dhairya+    4840  0.0  0.2 257224 20804 ?        S<sl 09:49   0:00 /usr/bin/wireplumber
+dhairya+   39326  0.0  0.2 33951552 19968 ?      S    09:57   0:00 /opt/google/chrome/chrome --type=zygote --crashpad-handler-pid=39315 --enable-crash-reporter=e52eba48-7aa8-47f2-abeb-6b818932fb9b, --change-stack-guard-on-fork=enable
+dhairya+    5084  0.0  0.2 581024 18948 ?        Sl   09:49   0:00 /usr/libexec/gnome-shell-calendar-server
+Debian-+    1324  0.0  0.2  30420 18900 ?        Ss   09:48   0:01 /usr/sbin/exim4 -bd -q30m
+dhairya+    4889  0.0  0.2 298008 18376 tty2     Sl+  09:49   0:00 /usr/libexec/gnome-session-binary
+dhairya+    5412  0.0  0.2 341912 17196 ?        Sl   09:49   0:00 /usr/libexec/gsd-printer
+root         693  0.0  0.2 394852 16960 ?        Ssl  09:48   0:00 /usr/libexec/udisks2/udisksd
+dhairya+    5202  0.3  0.1 386000 15948 ?        Sl   09:49   0:52 /usr/bin/ibus-daemon --panel disable
+dhairya+    5376  0.0  0.1 239184 15716 ?        Sl   09:49   0:12 /usr/libexec/ibus-portal
+colord      3208  0.0  0.1 242340 15160 ?        Ssl  09:48   0:00 /usr/libexec/colord
+root         878  0.0  0.1 176248 15032 ?        Ssl  09:48   0:04 /usr/sbin/cups-browsed
+dhairya+    5218  0.0  0.1 463296 14420 ?        Ssl  09:49   0:00 /usr/libexec/gsd-sharing
+dhairya+    5219  0.0  0.1 459476 14136 ?        Ssl  09:49   0:00 /usr/libexec/gsd-smartcard
+root         762  0.0  0.1 317328 14072 ?        Ssl  09:48   0:00 /usr/sbin/ModemManager
+dhairya+    4837  0.0  0.1  54740 14008 ?        S<sl 09:49   0:09 /usr/bin/pipewire
+dhairya+    5201  0.0  0.1 355280 13752 ?        Ssl  09:49   0:00 /usr/libexec/gsd-datetime
+dhairya+    5222  0.0  0.1 319404 13532 ?        Ssl  09:49   0:00 /usr/libexec/gsd-sound
+dhairya+    4968  0.0  0.1 351584 13456 ?        Ssl  09:49   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+dhairya+    5212  0.0  0.1 247220 13340 ?        Ssl  09:49   0:00 /usr/libexec/gsd-print-notifications
+dhairya+    5544  3.2  0.1 903252 12704 ?        Rl   09:49   8:17 conky -c /home/dhairyasen/.config/conky/Minimalis Conky/conky.conf
+root           1  0.0  0.1 168192 12640 ?        Ss   09:48   0:01 /sbin/init
+dhairya+    5143  0.0  0.1 311636 12372 ?        Sl   09:49   0:00 /usr/libexec/gvfsd-trash --spawner :1.6 /org/gtk/gvfs/exec_spaw/0
+dhairya+    4846  0.0  0.1 239916 11684 ?        SLsl 09:49   0:11 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+root        4804  0.0  0.1 165356 11620 ?        Sl   09:49   0:00 gdm-session-worker [pam/gdm-password]
+dhairya+    4819  0.0  0.1  19736 11356 ?        Ss   09:49   0:00 /lib/systemd/systemd --user
+root        1300  0.0  0.1 240396 11104 ?        Ssl  09:48   0:00 /usr/sbin/gdm3
+dhairya+    5029  0.0  0.1 312580 11088 ?        Sl   09:49   0:00 /usr/libexec/goa-identity-service
+root        3165  0.0  0.1 233920 10916 ?        Ssl  09:48   0:00 /usr/libexec/upowerd
+dhairya+    4995  0.0  0.1 234144 10848 ?        Ssl  09:49   0:00 /usr/libexec/gvfs-goa-volume-monitor
+dhairya+    5223  0.0  0.1 455928 10848 ?        Ssl  09:49   0:00 /usr/libexec/gsd-usb-protection
+dhairya+   42444  0.0  0.1 312080 10824 ?        Sl   09:57   0:00 /usr/libexec/gvfsd-recent --spawner :1.6 /org/gtk/gvfs/exec_spaw/2
+polkitd      689  0.0  0.1 310944 10796 ?        Ssl  09:48   0:11 /usr/lib/polkit-1/polkitd --no-debug
+dhairya+    5214  0.0  0.1 454768 10408 ?        Ssl  09:49   0:00 /usr/libexec/gsd-rfkill
+dhairya+    5034  0.0  0.1 312432 10116 ?        Ssl  09:49   0:01 /usr/libexec/gvfs-afc-volume-monitor
+dhairya+    4852  0.0  0.1 237520 10044 ?        Ssl  09:49   0:00 /usr/libexec/gvfsd
+dhairya+    5204  0.0  0.1 382948  9728 ?        Ssl  09:49   0:00 /usr/libexec/gsd-housekeeping
+root         673  0.0  0.1 237232  9688 ?        Ssl  09:48   0:00 /usr/libexec/accounts-daemon
+dhairya+    5458  0.1  0.1 534080  9408 ?        Ssl  09:49   0:16 /usr/libexec/xdg-document-portal
+dhairya+    5170  0.0  0.1 164328  9360 ?        Sl   09:49   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+dhairya+    5362  0.0  0.1 160364  9160 ?        Sl   09:49   0:00 /usr/libexec/ibus-memconf
+dhairya+    5419  0.1  0.1 160492  9124 ?        Sl   09:49   0:17 /usr/libexec/ibus-engine-simple
+root         822  0.0  0.1  27064  8892 ?        Ss   09:48   0:00 /usr/sbin/cupsd -l
+dhairya+    4985  0.0  0.1 234316  8804 ?        Ssl  09:49   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+dhairya+    5197  0.0  0.1 307384  8680 ?        Ssl  09:49   0:00 /usr/libexec/gsd-a11y-settings
+dhairya+    4869  0.0  0.1 380380  8652 ?        Sl   09:49   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+dhairya+    4979  0.0  0.1 233364  8584 ?        Ssl  09:49   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+dhairya+    5535  0.0  0.1 160076  8544 ?        Ssl  09:49   0:00 /usr/libexec/gvfsd-metadata
+root         691  0.0  0.1 233268  8468 ?        Ssl  09:48   0:00 /usr/libexec/switcheroo-control
+root         767  1.0  0.1  11236  8292 ?        SNs  09:48   2:33 /usr/sbin/preload -s /var/lib/preload/preload.state
+dhairya+    5217  0.0  0.1 233184  8144 ?        Ssl  09:49   0:00 /usr/libexec/gsd-screensaver-proxy
+root         692  0.0  0.0  25348  7856 ?        Ss   09:48   0:01 /lib/systemd/systemd-logind
+dhairya+    4885  0.0  0.0 159288  7760 tty2     Ssl+ 09:49   0:00 /usr/libexec/gdm-wayland-session /usr/bin/gnome-session
+dhairya+    5001  0.0  0.0 311256  7752 ?        Sl   09:49   0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+dhairya+    5082  0.0  0.0 236708  7728 ?        Ssl  09:49   0:00 /usr/libexec/xdg-permission-store
+root         293  0.0  0.0  27876  6984 ?        Ss   09:48   0:00 /lib/systemd/systemd-udevd
+dhairya+    4962  0.0  0.0  88836  6976 ?        Ssl  09:49   0:00 /usr/libexec/gnome-session-ctl --monitor
+systemd+     628  0.0  0.0  90264  6964 ?        Ssl  09:48   0:00 /lib/systemd/systemd-timesyncd
+message+     683  0.6  0.0  11776  6708 ?        Ss   09:48   1:42 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+dhairya+   19636  0.0  0.0  10392  6572 pts/1    Ss   09:52   0:02 bash
+dhairya+    4844  0.7  0.0  10664  6368 ?        Ss   09:49   1:57 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+dhairya+    5164  0.0  0.0 157116  6240 ?        Ssl  09:49   0:00 /usr/libexec/dconf-service
+dhairya+    5261  0.0  0.0 231792  6220 ?        Sl   09:49   0:00 /usr/libexec/gsd-disk-utility-notify
+dhairya+   13426  0.0  0.0   9896  5972 pts/0    Ss   09:50   0:00 bash
+root         712  0.0  0.0  16544  5808 ?        Ss   09:48   0:00 /sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+dhairya+    4961  0.0  0.0  88388  5596 ?        Ssl  09:49   0:00 /usr/libexec/gcr-ssh-agent /run/user/1000/gcr
+dhairya+    4963  0.0  0.0   7828  5116 ?        Ss   09:49   0:00 ssh-agent -D -a /run/user/1000/openssh_agent
+dhairya+ 1050655  200  0.0  11220  4816 pts/1    R+   14:03   0:00 ps aux --sort=-%mem
+dhairya+    5008  0.0  0.0   9260  4748 ?        S    09:49   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+root         687  0.0  0.0 230028  4684 ?        SLsl 09:48   0:00 /usr/libexec/low-memory-monitor
+dhairya+   18148  0.0  0.0 156288  4236 ?        Sl   09:52   0:00 /usr/libexec/evinced
+avahi        679  0.0  0.0   8296  3932 ?        Ss   09:48   0:03 avahi-daemon: running [vbox.local]
+dhairya+   24279  0.0  0.0   6960  3600 pts/0    S+   09:53   0:00 nano ImportantCommands.txt
+dhairya+    4821  0.0  0.0 103768  3564 ?        S    09:49   0:00 (sd-pam)
+dhairya+   39315  0.0  0.0 33577252 3564 ?       Sl   09:57   0:00 /opt/google/chrome/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/dhairyasen/.config/google-chrome/Crash Reports --metrics-dir=/home/dhairyasen/.config/google-chrome --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Debian GNU/Linux 12 (bookworm) --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=139.0.7258.127 --initial-client-fd=5 --shared-client-connection
+root        1291  0.1  0.0 352824  3160 ?        Sl   09:48   0:18 /usr/bin/VBoxDRMClient
+root        1295  0.0  0.0 292940  3012 ?        Sl   09:48   0:05 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+root         681  0.0  0.0   6612  2696 ?        Ss   09:48   0:00 /usr/sbin/cron -f
+dhairya+    5566  0.0  0.0 217508  2540 ?        Sl   09:49   0:00 /usr/bin/VBoxClient --clipboard
+dhairya+   39317  0.0  0.0 33568016 1656 ?       Sl   09:57   0:00 /opt/google/chrome/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/dhairyasen/.config/google-chrome/Crash Reports --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Debian GNU/Linux 12 (bookworm) --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=139.0.7258.127 --initial-client-fd=4 --shared-client-connection
+rtkit       1870  0.0  0.0  22704  1544 ?        SNsl 09:48   0:00 /usr/libexec/rtkit-daemon
+daemon       695  0.0  0.0   3584  1204 ?        Ss   09:48   0:00 /usr/sbin/atd -f
+root        5474  0.0  0.0   2484   972 ?        Ss   09:49   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+dhairya+   39295  0.0  0.0   5608   892 ?        S    09:57   0:00 cat
+dhairya+ 1050657  0.0  0.0   5608   892 pts/1    S+   14:03   0:00 cat
+dhairya+    5194  0.0  0.0   2580   876 ?        Ss   09:49   0:00 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+dhairya+   39294  0.0  0.0   5608   872 ?        S    09:57   0:00 cat
+dhairya+    5696  0.0  0.0 150796   400 ?        Sl   09:49   0:03 /usr/bin/VBoxClient --vmsvga-session
+dhairya+    5550  0.0  0.0  18692   392 ?        S    09:49   0:00 /usr/bin/VBoxClient --clipboard
+dhairya+    5695  0.0  0.0  18692   392 ?        S    09:49   0:00 /usr/bin/VBoxClient --vmsvga-session
+avahi        735  0.0  0.0   8108   364 ?        S    09:48   0:00 avahi-daemon: chroot helper
+root           2  0.0  0.0      0     0 ?        S    09:48   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   09:48   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   09:48   0:00 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   09:48   0:00 [slub_flushwq]
+root           6  0.0  0.0      0     0 ?        I<   09:48   0:00 [netns]
+root           8  0.0  0.0      0     0 ?        I<   09:48   0:00 [kworker/0:0H-events_highpri]
+root          10  0.0  0.0      0     0 ?        I<   09:48   0:00 [mm_percpu_wq]
+root          11  0.0  0.0      0     0 ?        I    09:48   0:00 [rcu_tasks_kthread]
+root          12  0.0  0.0      0     0 ?        I    09:48   0:00 [rcu_tasks_rude_kthread]
+root          13  0.0  0.0      0     0 ?        I    09:48   0:00 [rcu_tasks_trace_kthread]
+root          14  0.0  0.0      0     0 ?        S    09:48   0:03 [ksoftirqd/0]
+root          15  0.1  0.0      0     0 ?        I    09:48   0:19 [rcu_preempt]
+root          16  0.0  0.0      0     0 ?        S    09:48   0:00 [migration/0]
+root          18  0.0  0.0      0     0 ?        S    09:48   0:00 [cpuhp/0]
+root          19  0.0  0.0      0     0 ?        S    09:48   0:00 [cpuhp/1]
+root          20  0.0  0.0      0     0 ?        S    09:48   0:01 [migration/1]
+root          21  0.0  0.0      0     0 ?        S    09:48   0:03 [ksoftirqd/1]
+root          23  0.0  0.0      0     0 ?        I<   09:48   0:00 [kworker/1:0H-events_highpri]
+root          24  0.0  0.0      0     0 ?        S    09:48   0:00 [cpuhp/2]
+root          25  0.0  0.0      0     0 ?        S    09:48   0:01 [migration/2]
+root          26  0.0  0.0      0     0 ?        S    09:48   0:02 [ksoftirqd/2]
+root          28  0.0  0.0      0     0 ?        I<   09:48   0:00 [kworker/2:0H-events_highpri]
+root          29  0.0  0.0      0     0 ?        S    09:48   0:00 [cpuhp/3]
+root          30  0.0  0.0      0     0 ?        S    09:48   0:01 [migration/3]
+root          31  0.0  0.0      0     0 ?        S    09:48   0:02 [ksoftirqd/3]
+root          38  0.0  0.0      0     0 ?        S    09:48   0:00 [kdevtmpfs]
+root          39  0.0  0.0      0     0 ?        I<   09:48   0:00 [inet_frag_wq]
+root          40  0.0  0.0      0     0 ?        S    09:48   0:00 [kauditd]
+root          41  0.0  0.0      0     0 ?        S    09:48   0:00 [khungtaskd]
+root          42  0.0  0.0      0     0 ?        S    09:48   0:00 [oom_reaper]
+root          43  0.0  0.0      0     0 ?        I<   09:48   0:00 [writeback]
+root          44  0.0  0.0      0     0 ?        S    09:48   0:01 [kcompactd0]
+root          45  0.0  0.0      0     0 ?        SN   09:48   0:00 [ksmd]
+root          47  0.0  0.0      0     0 ?        SN   09:48   0:02 [khugepaged]
+root          48  0.0  0.0      0     0 ?        I<   09:48   0:00 [kintegrityd]
+root          49  0.0  0.0      0     0 ?        I<   09:48   0:00 [kblockd]
+root          50  0.0  0.0      0     0 ?        I<   09:48   0:00 [blkcg_punt_bio]
+root          51  0.0  0.0      0     0 ?        I<   09:48   0:00 [tpm_dev_wq]
+root          52  0.0  0.0      0     0 ?        I<   09:48   0:00 [edac-poller]
+root          53  0.0  0.0      0     0 ?        I<   09:48   0:00 [devfreq_wq]
+root          56  0.0  0.0      0     0 ?        I<   09:48   0:06 [kworker/1:1H-kblockd]
+root          57  0.0  0.0      0     0 ?        S    09:48   0:00 [kswapd0]
+root          63  0.0  0.0      0     0 ?        I<   09:48   0:00 [kthrotld]
+root          65  0.0  0.0      0     0 ?        I<   09:48   0:00 [acpi_thermal_pm]
+root          67  0.0  0.0      0     0 ?        I<   09:48   0:00 [mld]
+root          68  0.0  0.0      0     0 ?        I<   09:48   0:00 [kworker/3:1H-kblockd]
+root          69  0.0  0.0      0     0 ?        I<   09:48   0:00 [ipv6_addrconf]
+root          74  0.0  0.0      0     0 ?        I<   09:48   0:00 [kstrp]
+root          79  0.0  0.0      0     0 ?        I<   09:48   0:00 [zswap-shrink]
+root          80  0.0  0.0      0     0 ?        I<   09:48   0:00 [kworker/u9:0]
+root         149  0.0  0.0      0     0 ?        I<   09:48   0:06 [kworker/2:1H-kblockd]
+root         150  0.0  0.0      0     0 ?        I<   09:48   0:09 [kworker/0:1H-kblockd]
+root         155  0.0  0.0      0     0 ?        I<   09:48   0:00 [ata_sff]
+root         157  0.0  0.0      0     0 ?        S    09:48   0:00 [scsi_eh_0]
+root         158  0.0  0.0      0     0 ?        I<   09:48   0:00 [scsi_tmf_0]
+root         159  0.0  0.0      0     0 ?        S    09:48   0:00 [scsi_eh_1]
+root         160  0.0  0.0      0     0 ?        I<   09:48   0:00 [scsi_tmf_1]
+root         161  0.0  0.0      0     0 ?        S    09:48   0:00 [scsi_eh_2]
+root         162  0.0  0.0      0     0 ?        I<   09:48   0:00 [scsi_tmf_2]
+root         166  0.5  0.0      0     0 ?        S    09:48   1:20 [irq/18-vmwgfx]
+root         175  0.0  0.0      0     0 ?        I<   09:48   0:05 [kworker/3:2H-kblockd]
+root         211  0.0  0.0      0     0 ?        S    09:48   0:03 [jbd2/sda1-8]
+root         212  0.0  0.0      0     0 ?        I<   09:48   0:00 [ext4-rsv-conver]
+root         368  0.0  0.0      0     0 ?        I<   09:48   0:00 [cryptd]
+root         369  0.0  0.0      0     0 ?        I<   09:48   0:00 [iprt-VBoxWQueue]
+root         720  0.0  0.0      0     0 ?        S    09:48   0:00 [psimon]
+root      247763  0.0  0.0      0     0 ?        I    10:45   0:03 [kworker/0:1-events]
+root      433638  0.0  0.0      0     0 ?        I    11:30   0:00 [kworker/2:2-events]
+root      758025  0.0  0.0      0     0 ?        I    12:47   0:01 [kworker/3:1-events]
+root      845871  0.2  0.0      0     0 ?        I    13:09   0:07 [kworker/u8:0-events_unbound]
+root      927268  0.0  0.0      0     0 ?        I    13:30   0:01 [kworker/3:2-events]
+root      938837  0.0  0.0      0     0 ?        I    13:33   0:00 [kworker/2:1-events]
+root      955292  0.2  0.0      0     0 ?        R    13:37   0:04 [kworker/u8:2+events_unbound]
+root      967538  0.0  0.0      0     0 ?        I    13:41   0:00 [kworker/0:0-events]
+root     1006523  0.0  0.0      0     0 ?        I    13:51   0:00 [kworker/1:2-events]
+root     1023365  0.0  0.0      0     0 ?        I    13:56   0:00 [kworker/u8:1-ext4-rsv-conversion]
+root     1024796  0.0  0.0      0     0 ?        I    13:56   0:00 [kworker/1:1-ata_sff]
+root     1041101  0.0  0.0      0     0 ?        I    14:01   0:00 [kworker/2:0-events]
+root     1043884  0.0  0.0      0     0 ?        I    14:01   0:00 [kworker/1:0-ata_sff]

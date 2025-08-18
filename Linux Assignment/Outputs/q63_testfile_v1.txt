@@ -1,0 +1,6 @@
+root:x:0:0:root:/root:/bin/bash
+The root user has full access to the system.
+This directory belongs to root.
+Backup of root configuration completed.
+root privileges are required for this action.
+root/root/root combination used in logs.

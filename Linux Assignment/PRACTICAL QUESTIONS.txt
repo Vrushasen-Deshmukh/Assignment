@@ -1,0 +1,471 @@
+NOTE: THERE WILL BE A FOLDER CREATED FOR ALL OUTPUTS OR PRACTICALS.
+      THIS FILE WILL CONTAIN THE BASH SCRIPTS OF QUESTIONS WITH OUTPUTS (IF SMALL).
+      INITIALLY THE "OUTPUTS" FOLDER WILL BE LOCATED IN "/home/vrush" DIRECTORY.
+      AFTER THE COMPLETION OF ASSIGNMENT IT WILL BE MOVED INTO REPO path: /home/vrush/Workspace/NewGen-Assignments/LINUX/OUTPUTS
+__________________________________________________________________________________________________
+
+
+26.​Create a file named sample.txt, add three lines of text.
+bash:
+	vrush@vbox:~/OUTPUTS$ touch q26_sample.txt
+	vrush@vbox:~/OUTPUTS$ cat > q26_sample.txt 
+	This file was created using touch command
+	This file is stored inside OUTPUTS folder
+	Text in this file was added using cat command
+	vrush@vbox:~/OUTPUTS$ cat q26_sample.txt 
+	This file was created using touch command
+	This file is stored inside OUTPUTS folder
+	Text in this file was added using cat command
+__________________________________________________________________________________________________
+
+
+27.​Create a directory structure: /data/raw/2023
+bash:
+	vrush@vbox:~/OUTPUTS$ mkdir -p data/raw/2023
+__________________________________________________________________________________________________
+
+
+28.​Copy a file from /home/user to /tmp.
+bash:
+	vrush@vbox:~$ pwd
+output:
+	/home/vrush
+bash:
+	vrush@vbox:~$ cp undefined.bak /tmp
+	vrush@vbox:~$ ls -l /tmp | grep "undefined.bak"
+	-rw-r--r-- 1 vrush vrush 2397 Aug 16 21:34 undefined.bak
+__________________________________________________________________________________________________
+
+
+29.​Rename a file using the mv command.​
+bash:
+	vrush@vbox:~/OUTPUTS$ touch q29_originalfile
+	vrush@vbox:~/OUTPUTS$ ls
+output:
+	data  q26_sample.txt  q29_originalfile
+bash:
+	vrush@vbox:~/OUTPUTS$ mv q29_originalfile q29_renamedfile
+	vrush@vbox:~/OUTPUTS$ ls
+output:
+	data  q26_sample.txt  q29_renamedfile
+__________________________________________________________________________________________________
+
+
+30.​Display contents of a file with line numbers.​
+bash:
+	vrush@vbox:~/OUTPUTS$ cat -n q26_sample.txt
+output:
+	1	This file was created using touch command
+    	2	This file is stored inside OUTPUTS folder
+    	3	Text in this file was added using cat command
+__________________________________________________________________________________________________
+
+
+31.​Append a line to a file without opening it.
+bash:
+	vrush@vbox:~/OUTPUTS$ cat >> q31_sample_v2.txt 
+output:
+	This line has been appended into this file
+bash:
+	vrush@vbox:~/OUTPUTS$ cat q31_sample_v2.txt 
+output:
+	This file was created using touch command
+	This file is stored inside OUTPUTS folder
+	Text in this file was added using cat command
+	This line has been appended into this file
+__________________________________________________________________________________________________
+
+
+32.​Show the first 10 lines and last 5 lines of a file.
+bash:
+	vrush@vbox:~/OUTPUTS$ touch ToTheMoon.txt		# Creating a text file
+	vrush@vbox:~/OUTPUTS$ touch ToTheMoon.txt		# Adding text to the file
+	vrush@vbox:~/OUTPUTS$ touch q32_headandtails_v1.txt	# Creating file to store output
+	(head ToTheMoon.txt && tail -n 5 ToTheMoon.txt) > q32_headandtails_v1.txt	# storing output in the file.
+__________________________________________________________________________________________________
+
+
+33.​Extract 2nd column from a CSV using cut.
+bash:
+	# Using a CSV file called cyberpunk_data.csv
+	cut -d',' -f2 cyberpunk_data.csv | cat > q33_csvfile_v1.txt	# Storing the output in a file
+__________________________________________________________________________________________________
+
+
+34.​Sort a file alphabetically.​
+bash:
+	vrush@vbox:~/OUTPUTS$ sort q33_csvfile_v1.txt | cat > q34_sortfile_v1.txt
+	# Output stored in a seperate file.
+__________________________________________________________________________________________________
+
+
+
+35.​Sort a CSV file by column 3.​
+bash:
+	vrush@vbox:~/OUTPUTS$ sort -t',' -k3 cyberpunk_data.csv | cat > q35_sortfile_v2.txt
+	# Stored the output in a separate file
+__________________________________________________________________________________________________
+
+
+36.​Replace all occurrences of the word "error" with "warning" in a log file.
+bash:
+	vrush@vbox:~/OUTPUTS$ sed 's/ERROR/WARNING/g' q36_logfile_v1.log > q36_logfile_v2.log
+	# Changed instance log file data saved into separate log file
+__________________________________________________________________________________________________
+
+
+37.​Find all .log files under /var/log.
+bash:
+	vrush@vbox:~/OUTPUTS$ find /var/log -type f -name "*.log" | cat > q37_findlogs_v1.txt
+	# Store all log files name into separate file.
+__________________________________________________________________________________________________
+	
+
+38.​Show disk usage of each directory under /home.​
+bash:
+	vrush@vbox:~/OUTPUTS$ du -h --max-depth=1 /home
+output:
+	3.0G	/home/vrush
+	3.0G	/home
+__________________________________________________________________________________________________
+
+
+39.​Check available disk space and RAM in human-readable format.​
+bash:
+	vrush@vbox:~/OUTPUTS$ touch q39_memoryandspace_v1.txt	# Create a file to store output
+	vrush@vbox:~/OUTPUTS$ df -h | cat >> q39_memoryandspace_v1.txt	# Store the disc space usage in the file.
+	vrush@vbox:~/OUTPUTS$ free -h | cat >> q39_memoryandspace_v1.txt	# Store the RAM usage in the file
+__________________________________________________________________________________________________
+
+
+40.​Create a tar archive of a folder and extract it.
+bash:
+	vrush@vbox:~/OUTPUTS/data/raw$ tar -cvf q40_2023.tar 2023
+	vrush@vbox:~/OUTPUTS$ tar -xvf q40_2023.tar -C /home/vrush/OUTPUTS/q40_extract2023
+	# Exctract the tar file in a separate folder
+__________________________________________________________________________________________________
+
+
+41.​Compress a directory using zip and unzip it.
+bash:
+	vrush@vbox:~/OUTPUTS$ zip -r q41_2023.zip 2023
+	vrush@vbox:~/OUTPUTS$ unzip q41_2023.zip -d /home/vrush/OUTPUTS/q41_unzip2023/
+	# Exctract the zip file into separate folder
+__________________________________________________________________________________________________
+	
+
+42.​Add read and write permission to group and remove from others.
+bash:
+	vrush@vbox:~/OUTPUTS$ umask
+output:
+	0022
+bash:
+	vrush@vbox:~/OUTPUTS$ umask 0011		# Changing the default permissions
+	vrush@vbox:~/OUTPUTS$ umask
+output:
+	0011
+bash:
+	vrush@vbox:~/OUTPUTS$ touch q42_umask_v1
+	vrush@vbox:~/OUTPUTS$ ls -l | grep "q42_umask_v1"
+output:
+	-rw-rw-rw- 1 vrush vrush    0 Aug 17 00:48 q42_umask_v1 # Permissions are changed
+__________________________________________________________________________________________________
+
+
+43.​Change ownership of a file to user dataeng and group engineers.​
+bash:
+	vrush@vbox:~/OUTPUTS$ sudo useradd -m dataeng
+	vrush@vbox:~/OUTPUTS$ sudo groupadd engineers
+	vrush@vbox:~/OUTPUTS$ sudo chown dataeng:engineers /home/vrush/OUTPUTS/q43_onwergrp
+	vrush@vbox:~/OUTPUTS$ ls -l | grep "q43"
+outpur:
+	-rw-r--r-- 1 dataeng    engineers        0 Aug 17 15:12 q43_onwergrp
+__________________________________________________________________________________________________
+
+
+44.​Display only running processes of current user.
+bash:
+	vrush@vbox:~/OUTPUTS$ ps -u $USER | cat > q44_processes_v1.txt
+	# Output stored in separate file
+__________________________________________________________________________________________________
+	
+
+45.​Count number of lines containing word failed in a file.​
+bash:
+	vrush@vbox:~/OUTPUTS$ grep -i "failed" q45_failed.log | wc -l
+output:
+	22
+__________________________________________________________________________________________________
+
+
+46.​Create a cron job to run backup.sh every day at 5 AM
+# The process will start from creating a sh file to executing cronjobs
+bash:
+	vrush@vbox:~/OUTPUTS$ touch q46_backup.sh
+	vrush@vbox:~/OUTPUTS$ nano q46_backup.sh 
+nano:
+	#!/bin/bash
+	# backup.sh - log timestamp when run
+	
+	# Get current date and time
+	CURRENT_DATE=$(date "+%Y-%m-%d")
+	CURRENT_TIME=$(date "+%H:%M:%S")
+	
+	# Print message
+	echo "Backup file ran on $CURRENT_DATE at $CURRENT_TIME"
+bash:	
+	# Making the file executable
+	vrush@vbox:~/OUTPUTS$ chmod +x /home/vrush/OUTPUTS/q46_backup.sh
+	vrush@vbox:~/OUTPUTS$ crontab -e
+output:
+	crontab: installing new crontab
+bash:
+	vrush@vbox:~/OUTPUTS$ crontab -l
+output:
+	*/1 * * * * echo "Hello Data Engineering" >> /home/vrush/OUTPUTS/q72_cron_hello.log
+	0 5 * * * /home/vrush/backup.sh >> /home/vrush/OUTPUTS/q46_logbackup.log 2>&1
+__________________________________________________________________________________________________
+
+	
+47.​Display current path and all environment variables.
+a. Display current Directory:
+bash:
+	vrush@vbox:~/OUTPUTS$ pwd
+output:
+	/home/vrush/OUTPUTS
+b. All environment variables:
+bash:
+	vrush@vbox:~/OUTPUTS$ printenv | cat > q47_env_v1.txt	# Creates a file to store the output
+__________________________________________________________________________________________________
+
+
+48.​Check permission details of all files in /etc.
+bash:
+	vrush@vbox:~/OUTPUTS$ ls -l / | grep "etc"
+output:
+	drwxr-xr-x 128 root root 12288 Aug 17 09:48 etc
+__________________________________________________________________________________________________
+
+
+​49.​Create a symbolic link to /usr/bin/python3 as python.
+bash:
+	vrush@vbox:~/OUTPUTS$ ln -s /usr/bin/python3 python
+	vrush@vbox:~/OUTPUTS$ ls -l | grep "python"
+output:
+	lrwxrwxrwx 1 vrush vrush   16 Aug 17 10:10 python -> /usr/bin/python3
+__________________________________________________________________________________________________
+
+
+50.​Write a shell one-liner to print all .csv files with more than 10 lines.
+DOUBT IN THIS CONCEPT
+__________________________________________________________________________________________________
+
+
+51.​Create a new user in Linux named data_eng_user with a home directory.
+bash:
+	vrush@vbox:~/OUTPUTS$ sudo useradd -m -s /bin/bash data_eng_user
+	vrush@vbox:~/OUTPUTS$ ls -l /home
+output:
+	total 8
+	drwxr-xr-x  2 data_eng_user data_eng_user 4096 Aug 17 15:00 data_eng_user
+	drwx------ 33 vrush    vrush    4096 Aug 17 14:29 vrush
+__________________________________________________________________________________________________
+
+
+52.​Add data_eng_user to the sudoers list and verify.​
+bash:
+	vrush@vbox:~/OUTPUTS$ sudo usermod -aG sudo data_eng_user
+	vrush@vbox:~/OUTPUTS$ groups data_eng_user
+output:
+	data_eng_user : data_eng_user sudo
+__________________________________________________________________________________________________
+	
+
+53.​Create a directory /opt/data_eng and set full permissions only for the owner.​
+bash:
+	vrush@vbox:~/OUTPUTS$ mkdir -p /home/vrush/OUTPUTS/opt/data_eng
+	vrush@vbox:~/OUTPUTS$ chmod 700 opt/
+	vrush@vbox:~/OUTPUTS$ ls -l | grep "opt"
+output:
+	drwx------ 3 vrush vrush 4096 Aug 17 10:20 opt
+__________________________________________________________________________________________________
+
+
+54.​Change the owner of /opt/data_eng to data_eng_user.
+bash:
+	vrush@vbox:~/OUTPUTS$ sudo chown data_eng_user /home/vrush/OUTPUTS/opt/data_eng
+	vrush@vbox:~/OUTPUTS$ ls -l /home/vrush/OUTPUTS/opt/
+output:
+	total 4
+	drwxr-xr-x 2 data_eng_user vrush 4096 Aug 17 10:20 data_eng
+__________________________________________________________________________________________________
+
+
+55.​Create an empty file named students.txt using three different methods.​
+bash:
+	vrush@vbox:~/OUTPUTS$ touch q55_students_v1.txt
+	vrush@vbox:~/OUTPUTS$ cat > q55_students_v1.txt 
+	This file was created using touch command 
+	vrush@vbox:~/OUTPUTS$ cat > q55_students_v2.txt
+	This file was created using cat command
+	vrush@vbox:~/OUTPUTS$ echo "This file was created using echo command" > q55_students_v3.txt
+	vrush@vbox:~/OUTPUTS$ cat q55_students_v1.txt q55_students_v2.txt q55_students_v3.txt 
+output:
+	This file was created using touch command
+	This file was created using cat command
+	This file was created using echo command
+__________________________________________________________________________________________________
+
+
+56.​Append the text "Linux Assignment" to students.txt without overwriting the file.
+bash:
+	vrush@vbox:~/OUTPUTS$ cat < q55_students_v3.txt > q55_students_v4.txt
+	vrush@vbox:~/OUTPUTS$ cat >> q55_students_v4.txt		# Append command
+	Linux Assignment
+	vrush@vbox:~/OUTPUTS$ cat q55_students_v4.txt 
+output:
+	This file was created using echo command
+	Linux Assignment
+__________________________________________________________________________________________________
+
+
+57.​Display the first 10 lines of /etc/passwd.​
+bash:
+	vrush@vbox:~/OUTPUTS$ head /etc/passwd | cat > q57_etclines_v1.txt
+	# adding the 10 lines of /etc/passwd into a separate file
+__________________________________________________________________________________________________
+
+
+58.​Display the last 15 lines of /var/log/syslog (or any available log file)
+bash:
+	vrush@vbox:~/OUTPUTS$ tail -n 15 /var/log/fontconfig.log | cat > q58_tail_v1.txt
+	# Stores the last 15 lines in separate file
+__________________________________________________________________________________________________
+	
+	
+59.​Find the current working directory of the logged-in user.​
+bash:
+	vrush@vbox:~/OUTPUTS$ pwd
+output:
+	/home/vrush/OUTPUTS
+__________________________________________________________________________________________________
+
+
+61.​Find all .log files inside /var/log recursively.​
+bash:
+	vrush@vbox:~/OUTPUTS$ sudo find /var/log/ -type f -name "*.log" | cat > q61_findlog_v1.txt
+	# Stores the find output into separate file.
+__________________________________________________________________________________________________
+
+
+62.​Display the number of lines, words, and characters in /etc/passwd.​
+bash:
+	vrush@vbox:~/OUTPUTS$ wc /etc/passwd
+  output:
+  	40   65 2324 /etc/passwd
+__________________________________________________________________________________________________
+
+
+63.​Replace all occurrences of the word root with admin in a test file using sed.​
+bash:
+	vrush@vbox:~/OUTPUTS$ sed 's/root/admin/g' q63_testfile_v1.txt | cat > q63_testfile_v2.txt
+	# Store the changed output into a separate file
+__________________________________________________________________________________________________
+
+
+64.​Create a symbolic link for /etc/passwd inside /tmp directory.​
+bash:
+	vrush@vbox:~/OUTPUTS$ ln -s /etc/passwd /tmp/passwdsoftlink
+	vrush@vbox:~/OUTPUTS$ ls -l /tmp | grep "passwdsoftlink"
+output:
+	lrwxrwxrwx 1 vrush vrush   11 Aug 17 11:36 passwdsoftlink -> /etc/passwd
+__________________________________________________________________________________________________
+
+
+65.​Create a hard link for /etc/passwd inside /tmp directory.​
+bash:
+	vrush@vbox:~/OUTPUTS$ sudo ln /etc/passwd /tmp/passwdhardlink
+	vrush@vbox:~/OUTPUTS$ ls -l /tmp | grep "passwdhardlink"
+output:
+	-rw-r--r-- 2 root       root       2324 Aug 16 11:01 passwdhardlink
+__________________________________________________________________________________________________
+
+
+66.​Compress a file named students.txt using gzip and then decompress it
+bash:
+	vrush@vbox:~/OUTPUTS$ zip q66_studentszip.zip q66_students_v5.txt 
+	vrush@vbox:~/OUTPUTS$ unzip q66_studentszip.zip -d /home/vrush/OUTPUTS/q66_unzipstudents/
+	# Extract zip file into separate folder
+__________________________________________________________________________________________________
+
+
+67.​Create a tar archive backup.tar.gz of the /etc directory.​
+bash:
+	vrush@vbox:~/OUTPUTS$ tar -cvf q67_etc.tar /etc
+__________________________________________________________________________________________________
+	
+
+68.​Check the available disk space on the system.​
+bash:
+	vrush@vbox:~/OUTPUTS$ df -h | cat > q68_diskspace_v2.txt
+__________________________________________________________________________________________________
+	
+
+69.​Check the memory usage of the system.​
+bash:
+	vrush@vbox:~/OUTPUTS$ free -h | cat > q69_memory_v3.txt
+__________________________________________________________________________________________________
+	
+
+70.​Display all running processes and sort them by memory usage.
+bash:
+	vrush@vbox:~/OUTPUTS$ ps aux --sort=-%mem | cat > q70_sortprocess_v1.txt
+	# Output stored in a separate file
+__________________________________________________________________________________________________
+
+
+71.​Kill a process by its PID
+Process:
+	dhairya+ 1079453 16.1  4.0 1311972 327100 ?      Sl   14:11   0:04 evince /home/vrush/Workspace/NewGen-Assignments/LINUX/Linux Assignment.pdf
+bash:
+	vrush@vbox:~/OUTPUTS$ kill 1079453
+__________________________________________________________________________________________________
+
+
+72.​Create a cron job to run echo "Hello Data Engineering" every 1 minutes.​
+bash:
+	vrush@vbox:~/OUTPUTS$ crontab -e
+output:
+	crontab: installing new crontab
+bash:
+	vrush@vbox:~/OUTPUTS$ crontab -l
+output:
+	*/1 * * * * echo "Hello Data Engineering" >> /home/vrush/OUTPUTS/q72_cron_hello.log
+	# Logs are stored inside a log file (q72_cron_hello.log)
+__________________________________________________________________________________________________
+	
+
+73.​Create a file named file1.txt and file2.txt and merge them into merged.txt.
+bash:
+	vrush@vbox:~/OUTPUTS$ echo "Cyberware" > q73_file1.txt
+	vrush@vbox:~/OUTPUTS$ echo "Weapons" > q73_file2.txt
+	vrush@vbox:~/OUTPUTS$ paste q73_file1.txt q73_file2.txt > q73_merged.txt
+	vrush@vbox:~/OUTPUTS$ cat q73_merged.txt 
+Output:
+	Cyberware	Weapons
+__________________________________________________________________________________________________
+	
+
+74.​Sort the contents of merged.txt in descending order.​
+bash:
+	vrush@vbox:~/OUTPUTS$ sort -r q73_merged.txt | cat > q74_reversesort_v1.txt
+	# Save the output into a separate file
+__________________________________________________________________________________________________
+	
+
+75.​Display only the unique lines from merged.txt.
+bash:
+	vrush@vbox:~/OUTPUTS$ uniq q73_merged_v1.txt | cat > q75_merged_v2.txt
+	# Output stored in a different file
+	__________________________________________________________________________________________________
+

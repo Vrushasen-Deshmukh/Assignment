@@ -1,0 +1,20 @@
+2025-08-16 10:01:23 INFO  Server started successfully on port 8080
+2025-08-16 10:01:25 ERROR Failed to connect to database: Connection refused
+2025-08-16 10:01:27 WARN  Disk space running low: 92% used
+2025-08-16 10:01:29 ERROR User authentication failed for user 'admin'
+2025-08-16 10:01:35 INFO  New user registered: john_doe
+2025-08-16 10:01:38 ERROR File not found: /etc/config.yaml
+2025-08-16 10:01:41 ERROR Permission denied while accessing /var/www/html/index.html
+2025-08-16 10:01:45 INFO  Backup process completed successfully
+2025-08-16 10:01:47 ERROR Out of memory: process 2345 killed
+2025-08-16 10:01:49 ERROR Unable to resolve host name: api.example.com
+2025-08-16 10:01:52 INFO  Scheduled job started: cleanup.sh
+2025-08-16 10:01:54 ERROR Segmentation fault in module libc.so.6
+2025-08-16 10:01:59 ERROR Invalid configuration key in /etc/service.conf
+2025-08-16 10:02:02 WARN  High CPU usage detected: 97%
+2025-08-16 10:02:04 ERROR Network timeout while connecting to 192.168.1.10
+2025-08-16 10:02:07 INFO  User logged out: john_doe
+2025-08-16 10:02:09 ERROR SSL handshake failed with client 192.168.1.11
+2025-08-16 10:02:15 ERROR Failed to write to disk: Read-only filesystem
+2025-08-16 10:02:18 ERROR Service crashed unexpectedly: exit code 137
+2025-08-16 10:02:21 INFO  Monitoring service restarted successfully

@@ -1,0 +1,4 @@
+This file was created using touch command
+This file is stored inside OUTPUTS folder
+Text in this file was added using cat command
+This line has been appended into this file
